@@ -1,0 +1,275 @@
+.background_1 {
+	height: 1060px;
+	width: 1280px;
+	margin: 0 auto;
+	background-image: url(background.png);
+}
+
+.google {
+	height: 38px;
+}
+
+.container {
+	height: 990px;
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+}
+
+.header {
+	height: 175px;
+	position: relative;
+}
+
+.clearfix:after {
+	content: " ";
+	clear: both;
+	display: block;
+} 
+
+.box1 {
+	position: absolute;
+	top: 10px;
+	left:30px;
+}
+
+.box2 {
+	position: absolute;
+	top: 110px;
+	left: 106px;
+	font-size: 12px;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #128aa7;
+}
+
+h4 {
+	position: absolute;
+	top: 11px;
+	right: 70px;
+	font-size: 12px;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #128aa7;
+}
+
+.phone {
+	position: absolute;
+	top: 30px;
+	right: 35px;
+	font-size: 12px;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #128aa7;
+}
+
+.phone li {
+	padding-bottom: 5px;
+}
+
+.asia li {
+    display: inline-block;
+    padding-right: 17px;
+}
+
+.asia {
+	position: absolute;
+	top: 110px;
+	right: 18px;
+}
+
+.names li {
+	display: inline-block;
+}
+
+.names {
+	position: absolute;
+	top: 150px;
+	right: 18px;
+
+}
+
+.names li a {
+	font-size: 10px;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #128aa7;
+}
+
+.n1 {
+	padding-right: 29px;
+}
+
+.n2 {
+	padding-right: 31px;
+}
+
+.n3 {
+	padding-right: 34px;
+}
+
+.n4 {
+	padding-right: 18px;
+}
+
+.n5 {
+	padding-right: 8px;
+}
+
+.n6 {
+	padding-right: 15px;
+}
+
+.image {
+	height: 237px;
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+}
+
+.undermenu {
+	height: 30px;
+	width: 1000px;
+	background-image: url(menu3.png);
+	background-repeat: repeat-x;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+.menu {
+	height: 30px;
+}
+
+.menu  li {
+    float: left;
+    position: relative;
+}
+
+.menu  li  a {
+    display: block;
+    padding: 6px 0px 8px 57px;
+    color: white;
+    text-decoration: none;
+    font: 14px Tahoma;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    width: 154px;
+    height: 132px;
+    top: 30px;
+    left: 35px;
+    background-image: url(submenu.png);
+    z-index: 2;
+ }
+
+.submenu  li {
+    display: block;
+}
+
+.submenu  li  a {
+    display: block;
+    padding: 7px 0px 0px 29px;
+    color: white;
+    text-decoration: none;
+}
+
+.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+.menu  li:hover .submenu {
+    display: block;
+}
+
+.submenu li:hover {
+    display: block;
+}
+
+.fon1 {
+	width: 100%;
+	height: 546px;
+    float: left;
+    position: relative;
+    right: 60%;
+    z-index: 1;
+    background: #edeef0;
+    border-right: 1px solid #c7cacf;
+}
+
+.fon2 {
+	width: 100%;
+	height: 546px;
+	float: left;
+	position: relative;
+	right: 20%;
+	z-index: 1;
+	background: #fff;
+	border-right: 1px solid #c7cacf;
+}
+
+.fon3 {
+	top: 0;
+	width: 99.8%;
+	height: 546px;
+	float: left;
+	overflow: hidden;
+	z-index: 1;
+	background: #edeef0;
+	border-right: 1px solid #c7cacf;
+	border-left: 1px solid #c7cacf;
+}
+
+
+.LeftColumn {
+	width: 20%;
+	float: left;
+	overflow: hidden;
+	position:relative;
+	left:80%;
+	text-align: center;
+}
+
+.CenterColumn {
+	width: 59%;
+	float: left;
+	overflow: hidden;
+	position:relative;
+	left:80%;
+}
+
+.RightColumn {
+	width: 20%;
+	float: right;
+	overflow: hidden;
+	position:relative;
+	left:80%;
+	text-align: center;
+}
+
+.column {
+	font: 14px Tahoma;
+	color: #424c43;
+	line-height: 25px;
+}
+
+h2 {
+    font: 18px Tahoma;
+	color: #424c43;
+
+}
+
+.bottom {
+	text-align: center;
+	margin-top: 5px;
+	font: 12px Tahoma;
+	color: white;
+}
