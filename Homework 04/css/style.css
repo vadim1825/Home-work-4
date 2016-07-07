@@ -1,23 +1,6 @@
-html {
-	height: 150%;
-	width: 100%;
-}
 
 body {
-	height: 100%;
-	width: 100%;
-}
-
-.background_1 {
-	height: 100%;
-	width: 100%;
-	margin: 0 auto;
-	background-image: url(background.png);
-}
-
-.google {
-	height: 38px;
-	text-align: center;
+    background-image: url(../img/background.png);
 }
 
 .container {
@@ -93,33 +76,33 @@ h4 {
  }   
     
 .India {
-	background-image: url(India.png);
+	background-image: url(../img/India.png);
 	left: 638px;
 
 }
 
 .Nepal {
-	background-image: url(Nepal.png);
+	background-image: url(../img/Nepal.png);
 	left: 694px;
 }
 
 .Tibet {
-	background-image: url(Tibet.png);
+	background-image: url(../img/Tibet.png);
 	left: 750px;
 }
 
 .Bhutan {
-	background-image: url(Bhutan.png);
+	background-image: url(../img/Bhutan.png);
 	left: 806px;
 }
 
 .Sri-lanka {
-	background-image: url(Sri-lanka.png);
+	background-image: url(../img/Sri-lanka.png);
 	left: 864px;
 }
 
 .Maldives {
-	background-image: url(Maldives.png);
+	background-image: url(../img/Maldives.png);
 	left: 922px;
 }
 
@@ -134,8 +117,11 @@ h4 {
 .undermenu {
 	height: 30px;
 	width: 1000px;
-	background-image: url(menu3.png);
+	background-image: url(../img/menu3.png);
 	background-repeat: repeat-x;
+	box-shadow: 0px 2px 6px -1px;
+	position: relative;
+	z-index: 3;
 }
 
 ul {
@@ -145,15 +131,10 @@ ul {
     list-style: none;
     }
 
-ul:after {
-    display: block;
-    content: ' ';
-    clear: both;
-    float: none;
-}
-
 .menu {
 	height: 30px;
+	position: relative;
+	z-index: 3;
 }
 
 .menu  li {
@@ -163,7 +144,8 @@ ul:after {
 
 .menu  li  a {
     display: block;
-    padding: 6px 0px 8px 57px;
+    height: 24px;
+    padding: 6px 0px 0px 57px;
     color: white;
     text-decoration: none;
     font: 14px Tahoma;
@@ -176,7 +158,7 @@ ul:after {
     height: 132px;
     top: 30px;
     left: 35px;
-    background-image: url(submenu.png);
+    background-image: url(../img/submenu.png);
     z-index: 2;
  }
 
@@ -209,10 +191,10 @@ ul:after {
     float: left;
     position: relative;
     right: 60%;
-    z-index: 1;
     background: #edeef0;
     border-right: 1px solid #c7cacf;
-}
+    z-index: 1;
+}   
 
 .fon2 {
 	width: 100%;
@@ -220,9 +202,9 @@ ul:after {
 	float: left;
 	position: relative;
 	right: 20%;
-	z-index: 1;
 	background: #fff;
 	border-right: 1px solid #c7cacf;
+	z-index: 1;
 }
 
 .fon3 {
@@ -231,10 +213,10 @@ ul:after {
 	height: 546px;
 	float: left;
 	overflow: hidden;
-	z-index: 1;
 	background: #edeef0;
 	border-right: 1px solid #c7cacf;
 	border-left: 1px solid #c7cacf;
+	z-index: 1;
 }
 
 
